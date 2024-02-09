@@ -1,0 +1,11 @@
+.is-sticky {
+  position: fixed;
+  top: 10px;
+  z-index: 999;
+}
+
+.is-positioned {
+  position: absolute;
+  bottom: 10px;
+  top: unset;
+}

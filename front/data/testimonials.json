@@ -1,0 +1,43 @@
+{
+  "testimonials": [
+    {
+      "id": 1,
+      "picture": "/assets/imgs/testim/1.jpg",
+      "name": "Leonard Heiser",
+      "position": "Envato customer",
+      "text": "We have purchased well into the thousands of items, but this is without doubt one of the best we’ve have been lucky enough to work on, the attention to detail apparent throughout, and the delivery is impressively intuitive.",
+      "reviews": 71
+    },
+    {
+      "id": 2,
+      "picture": "/assets/imgs/testim/2.jpg",
+      "name": "Leonard Heiser",
+      "position": "Envato customer",
+      "text": "We have purchased well into the thousands of items, but this is without doubt one of the best we’ve have been lucky enough to work on, the attention to detail apparent throughout, and the delivery is impressively intuitive.",
+      "reviews": 71
+    },
+    {
+      "id": 3,
+      "picture": "/assets/imgs/testim/3.jpg",
+      "name": "Leonard Heiser",
+      "position": "Envato customer",
+      "text": "We have purchased well into the thousands of items, but this is without doubt one of the best we’ve have been lucky enough to work on, the attention to detail apparent throughout, and the delivery is impressively intuitive.",
+      "reviews": 71
+    },
+    {
+      "id": 4,
+      "picture": "/assets/imgs/testim/4.jpg",
+      "name": "Leonard Heiser",
+      "position": "Envato customer",
+      "text": "We have purchased well into the thousands of items, but this is without doubt one of the best we’ve have been lucky enough to work on, the attention to detail apparent throughout, and the delivery is impressively intuitive.",
+      "reviews": 71
+    }
+  ],
+  "brands": [
+    "/assets/imgs/brands/01.png",
+    "/assets/imgs/brands/02.png",
+    "/assets/imgs/brands/03.png",
+    "/assets/imgs/brands/04.png",
+    "/assets/imgs/brands/05.png"
+  ]
+}

@@ -1,0 +1,42 @@
+[{
+        "id": 1,
+        "letter": "D",
+        "title": "Développement Web",
+        "details": "Création de sites et d'applications web de gestion des activités d'une entreprise.",
+        "tags": [
+            "C#",
+            ".Net core",
+            "Javascript",
+            "Vue",
+            "Angular",
+            "React"
+        ]
+    },
+    {
+        "id": 2,
+        "letter": "H",
+        "title": "Hébergement",
+        "details": "Mise en ligne du site et de tout ce qu'il y a autour pour son fonctionement. Déploiement automatique des projets à chaque mise à jour",
+        "tags": [
+            "CI/CD",
+            "Github",
+            "Azure App Service",
+            "Aws",
+            "Docker"
+        ]
+    },
+    {
+        "id": 3,
+        "letter": "B",
+        "title": "Base de données",
+        "details": "Création de base de données contenant les données manipulées par les applications tierces. Gestion de droits, stockage et sauvegarde de données",
+        "tags": [
+            "SQL Server",
+            "MySql",
+            "Oracle",
+            "Maria Db",
+            "Mongo Db",
+            "Cosmos Db"
+        ]
+    }
+]

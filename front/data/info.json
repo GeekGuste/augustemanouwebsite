@@ -1,0 +1,88 @@
+{
+    "picture": "/assets/imgs/header/profil_tgv.png",
+    "name": "Auguste MANOU",
+    "username": "@Auguste Manou",
+    "years_of_experance": 3,
+    "clients": "6k",
+    "brief": "Je mets en œuvre mon expertise avec enthousiasme pour concevoir des applications web innovantes.",
+    "resume": [{
+            "id": 1,
+            "duration": "Juil 2021 - Mars 2024",
+            "company": "Consultant Nouvelles Technologies - REBOOT CONSEIL",
+            "logo": "/assets/imgs/resume/reboot_conseil_logo.jpg"
+        },
+        {
+            "id": 2,
+            "duration": "Fev 2021 - Juil 2021",
+            "company": "Concepteur Developpeur .Net - REBOOT CONSEIL(Stage)",
+            "logo": "/assets/imgs/resume/reboot_conseil_logo.jpg"
+        },
+        {
+            "id": 3,
+            "duration": "Fev 2020 - Juil 2020",
+            "company": "Developpeur Asp.Net - André Bazin",
+            "logo": "/assets/imgs/resume/bazin.png"
+        },
+        {
+            "id": 4,
+            "duration": "Juin 2018 - Jan 2019",
+            "company": "Développeur d'application web et mobile - @Togo (Stage)",
+            "logo": "/assets/imgs/resume/arobasetg.jpg"
+        },
+        {
+            "id": 5,
+            "duration": "Nov 2017 - Fev 2018",
+            "company": "Développeur FullStack - Herpa Solution (Stage)",
+            "logo": "/assets/imgs/resume/herpa.png"
+        },
+        {
+            "id": 6,
+            "duration": "Juin 2017 - Oct 2017",
+            "company": "Développeur FullStack - Togo Telecom (Stage)",
+            "logo": "/assets/imgs/resume/togo_telecom.jpg"
+        },
+        {
+            "id": 7,
+            "duration": "Juin 2016 - Sept 2016",
+            "company": "Développeur Web - Trading Junction (Stage)",
+            "logo": "/assets/imgs/resume/4.svg"
+        }
+    ],
+    "skills": [{
+            "id": 1,
+            "title": "ASP.Net / Nuxt.js / Vue.js / Angular / React.js / Node.js",
+            "logo": "/assets/imgs/resume/s2.png",
+            "percent": "80%"
+        },
+        {
+            "id": 2,
+            "title": "C# / Javascript / Python / PHP / Java",
+            "logo": "/assets/imgs/resume/s2.png",
+            "percent": "90%"
+        },
+        {
+            "id": 3,
+            "title": "SQL Server / MySQl / Oracle / MongoDb / Cosmos Db",
+            "logo": "/assets/imgs/resume/s2.png",
+            "percent": "85%"
+        },
+        {
+            "id": 4,
+            "title": "Azure / Aws / Jirah / Github / GitLab / Thrello / Slack",
+            "logo": "/assets/imgs/resume/s2.png",
+            "percent": "78%"
+        },
+        {
+            "id": 5,
+            "title": "Bootstrap / Jquery / Vuetify / Tailwind",
+            "logo": "/assets/imgs/resume/s1.png",
+            "percent": "78%"
+        },
+        {
+            "id": 6,
+            "title": "Windows / Linux / Docker",
+            "logo": "/assets/imgs/resume/s2.png",
+            "percent": "78%"
+        }
+    ]
+}
