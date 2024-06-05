@@ -23,7 +23,7 @@
           <div class="icon-img-40 mr-100">
             <img :src="item.logo" alt="" />
           </div>
-          <div class="arrow">
+          <!--div class="arrow">
             <a href="#">
               <svg
                 class="arrow-right"
@@ -40,7 +40,7 @@
                 <line x1="17.3" y1="31.6" x2="33.5" y2="15.4"></line>
               </svg>
             </a>
-          </div>
+          </div-->
         </div>
       </div>
     </div>

@@ -3,7 +3,7 @@
     "name": "Auguste MANOU",
     "username": "@Auguste Manou",
     "years_of_experance": 3,
-    "clients": "6k",
+    "projects": "12",
     "brief": "Je mets en œuvre mon expertise avec enthousiasme pour concevoir des applications web innovantes.",
     "resume": [{
             "id": 1,
@@ -14,73 +14,73 @@
         {
             "id": 2,
             "duration": "Fev 2021 - Juil 2021",
-            "company": "Concepteur Developpeur .Net - REBOOT CONSEIL(Stage)",
+            "company": "Concepteur Developpeur .Net Junior - REBOOT CONSEIL",
             "logo": "/assets/imgs/resume/reboot_conseil_logo.jpg"
         },
         {
             "id": 3,
             "duration": "Fev 2020 - Juil 2020",
-            "company": "Developpeur Asp.Net - André Bazin",
+            "company": "Developpeur Asp.Net Junior - André Bazin",
             "logo": "/assets/imgs/resume/bazin.png"
         },
         {
             "id": 4,
             "duration": "Juin 2018 - Jan 2019",
-            "company": "Développeur d'application web et mobile - @Togo (Stage)",
+            "company": "Développeur d'application web et mobile Junior - @Togo",
             "logo": "/assets/imgs/resume/arobasetg.jpg"
         },
         {
             "id": 5,
             "duration": "Nov 2017 - Fev 2018",
-            "company": "Développeur FullStack - Herpa Solution (Stage)",
+            "company": "Développeur FullStack Junior - Herpa Solution",
             "logo": "/assets/imgs/resume/herpa.png"
         },
         {
             "id": 6,
             "duration": "Juin 2017 - Oct 2017",
-            "company": "Développeur FullStack - Togo Telecom (Stage)",
+            "company": "Développeur FullStack Junior - Togo Telecom",
             "logo": "/assets/imgs/resume/togo_telecom.jpg"
         },
         {
             "id": 7,
             "duration": "Juin 2016 - Sept 2016",
-            "company": "Développeur Web - Trading Junction (Stage)",
+            "company": "Développeur Web Junior - Trading Junction",
             "logo": "/assets/imgs/resume/4.svg"
         }
     ],
     "skills": [{
             "id": 1,
-            "title": "ASP.Net / Nuxt.js / Vue.js / Angular / React.js / Node.js",
+            "title": "<b>ASP.Net</b> / Nuxt.js / <b>Vue.js</b> / Angular / React.js / Node.js",
             "logo": "/assets/imgs/resume/s2.png",
             "percent": "80%"
         },
         {
             "id": 2,
-            "title": "C# / Javascript / Python / PHP / Java",
+            "title": "<b>C#</b> / <b>Javascript</b> / Python / PHP / Java",
             "logo": "/assets/imgs/resume/s2.png",
             "percent": "90%"
         },
         {
             "id": 3,
-            "title": "SQL Server / MySQl / Oracle / MongoDb / Cosmos Db",
+            "title": "<b>SQL Server</b> / <b>MySQL</b> / Oracle / MongoDb / <b>Cosmos Db</b>",
             "logo": "/assets/imgs/resume/s2.png",
             "percent": "85%"
         },
         {
             "id": 4,
-            "title": "Azure / Aws / Jirah / Github / GitLab / Thrello / Slack",
+            "title": "<b>Azure</b> / Aws / Jirah / <b>Github</b> / GitLab / Thrello / <b>Slack</b>",
             "logo": "/assets/imgs/resume/s2.png",
             "percent": "78%"
         },
         {
             "id": 5,
-            "title": "Bootstrap / Jquery / Vuetify / Tailwind",
+            "title": "<b>Bootstrap</b> / Jquery / <b>Vuetify</b> / <b>Tailwind</b>",
             "logo": "/assets/imgs/resume/s1.png",
             "percent": "78%"
         },
         {
             "id": 6,
-            "title": "Windows / Linux / Docker",
+            "title": "Windows / Linux / <b>Docker</b>",
             "logo": "/assets/imgs/resume/s2.png",
             "percent": "78%"
         }

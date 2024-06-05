@@ -3,8 +3,7 @@
     <div class="cont">
       <h1>
         Hello, Je suis <span class="main-color">Auguste MANOU</span>,
-        Developpeur FullStack <span class="bord">C# / JS <i></i></span> Basé en
-        Alsace.
+        Developpeur FullStack <span class="bord">.Net / JS <i></i></span>
       </h1>
     </div>
     <div class="stauts mt-80">
@@ -18,6 +17,18 @@
             </p>
           </div>
         </div>
+        <div class="mr-40">
+          <div class="d-flex align-items-center">
+            <h2>+{{ data.projects }}</h2>
+            <p>
+              Projets <br />
+              réalisés
+            </p>
+          </div>
+        </div>
+      </div>
+      <hr />
+      <div class="d-flex align-items-center">
         <div class="mr-40">
           <div class="butn-presv">
             <a

@@ -6,6 +6,11 @@ export default defineNuxtConfig({
     shim: false,
   },
   nitro: {},
+  runtimeConfig: {
+    public:{
+      apiUrl: process.env.API_URL
+    }
+  },
   alias: {
     "@": fileURLToPath(new URL("./", import.meta.url)),
   },
@@ -30,7 +35,7 @@ export default defineNuxtConfig({
         {
           name: "keywords",
           content:
-            "Vue Nuxtjs C# React Developer Freelance FullStack Backend Javascript",
+            "Website Vue Nuxtjs C# React Developer Freelance FullStack Backend Javascript Site Internet",
         },
         {
           name: "description",
