@@ -61,7 +61,7 @@
 
       <div class="md-hide">
         <div class="butn-presv">
-          <a href="#0" class="butn butn-sm butn-bg bg-white radius-5 skew">
+          <a href="#0" class="butn butn-sm butn-bg bg-white radius-5 skew" @click="scrollToSection" data-scroll-nav="6">
             <span class="text-dark">Me Contacter !</span>
           </a>
         </div>

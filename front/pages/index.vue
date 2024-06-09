@@ -1,25 +1,25 @@
 <template>
   <CommonLoader />
-  <PreviewNavbar />
+  <CommonSettingsSwitch />
+  <HomeNoise />
+  <HomeNavbar />
   <main>
-    <PreviewMainBox />
+    <HomeMainBox />
+    <HomeServices />
+    <!--HomePortfolio />
+    <HomeTestimonials />
+    <HomeBlog /-->
+    <HomeContact />
   </main>
   <CommonFooter />
 </template>
 
 <script setup>
-//= Page Metadata
-definePageMeta({
-  layout: "preview",
-});
 //= Page Head
 useHead({
-  titleTemplate: `%s - Développeur Web Full Stack C# / JS`,
+  titleTemplate: `%s - Home Main`,
+  bodyAttrs: {
+    class: "main-home",
+  },
 });
 </script>
-
-<style>
-body {
-  background: #222;
-}
-</style>

@@ -24,75 +24,103 @@
                   ><span class="hover-anim">LinkedIn</span></a
                 >
               </li>
-              <li>
-                <a
-                  target="_blank"
-                  href="https://www.instagram.com/auguste.7?utm_source=qr&igsh=MW8zOW52NnI2MDFxZw=="
-                  class="hover-this"
-                  ><span class="hover-anim">Instagram</span></a
-                >
-              </li>
             </ul>
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 valign">
           <div class="full-width">
-            <form id="contact-form" method="post" action="contact.php">
-              <div class="messages"></div>
-              <div class="controls row">
-                <div class="col-lg-6">
-                  <div class="form-group mb-30">
-                    <input
-                      id="form_name"
-                      type="text"
-                      name="name"
-                      placeholder="Nom"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-6">
-                  <div class="form-group mb-30">
-                    <input
-                      id="form_email"
-                      type="email"
-                      name="email"
-                      placeholder="Email"
-                      required
-                    />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group mb-30">
-                    <input
-                      id="form_subject"
-                      type="text"
-                      name="subject"
-                      placeholder="Objet"
-                    />
-                  </div>
-                </div>
-                <div class="col-12">
-                  <div class="form-group">
-                    <textarea
-                      id="form_message"
-                      name="message"
-                      placeholder="Message"
-                      rows="4"
-                      required
-                    ></textarea>
-                  </div>
-                  <div class="mt-30">
-                    <button type="submit">
-                      <span class="text">Envoyer Un Message</span>
-                    </button>
-                  </div>
+            <div class="messages"></div>
+            <div class="controls row">
+              <div class="col-lg-6">
+                <div class="form-group mb-30">
+                  <input
+                    id="form_name"
+                    type="text"
+                    v-model.trim="name"
+                    placeholder="Nom"
+                    required
+                  />
                 </div>
               </div>
-            </form>
+              <div class="col-lg-6">
+                <div class="form-group mb-30">
+                  <input
+                    id="form_email"
+                    type="email"
+                    name="email"
+                    v-model.trim="email"
+                    placeholder="Email"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group mb-30">
+                  <input
+                    id="form_subject"
+                    type="text"
+                    name="subject"
+                    v-model.trim="subject"
+                    placeholder="Objet"
+                  />
+                </div>
+              </div>
+              <div class="col-12">
+                <div class="form-group">
+                  <textarea
+                    id="form_message"
+                    name="message"
+                    v-model="message"
+                    placeholder="Message"
+                    rows="4"
+                    required
+                  ></textarea>
+                </div>
+                <div class="mt-30">
+                  <button @click="sendMessage">
+                    <span class="text">Envoyer Un Message</span>
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
   </section>
 </template>
+<script lang="ts" setup>
+const config = useRuntimeConfig()
+const name = ref("");
+const email = ref("");
+const subject = ref("");
+const message = ref("");
+const errorMessage = ref("");
+const emailRegex = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+const sendMessage = async () => {
+  if (
+    name.value == "" ||
+    email.value == "" ||
+    subject.value == "" ||
+    message.value == ""
+  ) {
+    errorMessage.value =
+      "Veuillez remplir tous les champs vides avant d'envoyer votre message";
+  } else if (!emailRegex.test(email.value)) {
+    errorMessage.value = "L'email renseigné est valide";
+  } else {
+    errorMessage.value = "";
+    // envoi de mail
+    const data = await useFetch(`${config.public.apiUrl}/contact-auguste`, {
+      method: "POST",
+      body: {
+        name,
+        email,
+        subject,
+        message,
+      },
+    });
+    console.log(data.Value);
+  }
+};
+</script>

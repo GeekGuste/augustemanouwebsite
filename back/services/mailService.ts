@@ -14,14 +14,13 @@ export const sendMail = (subject: string, html: string, reply?: string) => {
     replyTo: reply,
   };
 
-  transporter.sendMail(
-    mailOptions,
-    function (error: Error | null, info: any): void {
-      if (error) {
-        console.log(error);
-      } else {
-        console.log("Email sent: " + info.response);
-      }
-    }
-  );
+  var result: any;
+
+  try {
+    result = transporter.sendMail(mailOptions);
+  } catch (error: any) {
+    result = { ...error };
+  }
+  console.log(result);
+  return result as string;
 };

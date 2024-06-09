@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  back_container_node:
+    build:
+      context: ./back
+      dockerfile: Dockerfile
+    ports:
+      - "3030:3030"
+  front_container_nuxt:
+    build: 
+      context: ./front
+      dockerfile: Dockerfile
+    env_file:
+      - ./front/.env
+    environment:
+      - API_URL="localhost:3030"
+    depends_on:
+      - back_container_node
+    ports:
+      - "3000:3000"
