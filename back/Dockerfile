@@ -1,6 +1,6 @@
 FROM node:18-alpine
 WORKDIR /app
-COPY . .
+COPY . /app
 RUN yarn install
 RUN yarn build
 EXPOSE 3030
